@@ -1,0 +1,32 @@
+#contenedor {  
+    display: grid;
+    grid-template-areas: 'header header'
+                     'sidebar fotos';
+
+}
+
+
+
+header{
+  
+    grid-area: header;
+}
+
+#sidebar{
+    grid-area: sidebar;
+}
+
+#photos__conteiner{
+    
+    grid-area: fotos;
+}
+
+@media only screen and (max-width:600px){
+    #contenedor {  
+        grid-template-areas: 'header'
+                             'sidebar'
+                             'fotos';
+    
+    }
+}
+

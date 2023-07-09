@@ -1,0 +1,30 @@
+
+
+#photo-container .column{
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+
+#photo-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+} 
+
+#photo-container .column .photo{
+    margin-top: 8px;
+    vertical-align:middle;
+}
+
+.photo img {
+    width: 100%;
+}
+
+
+#photo-container .column .photo img{
+    width: 100%;
+    height: auto;
+}
+
+
